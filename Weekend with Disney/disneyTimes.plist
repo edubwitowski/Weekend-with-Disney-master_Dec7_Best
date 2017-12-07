@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>picMe-0</key>
+		<string>&quot;Mickey&quot;</string>
+		<key>show</key>
+		<string>&quot;MickeyMouse&quot;</string>
+		<key>readMe</key>
+		<string>&quot;Mickey Mouse Club House  Mickey and Donald go together to get their hair cut and try to figure out the best way to go when they get to the fork in the road.&quot;</string>
+		<key>time</key>
+		<string>&quot;6:00 - 7:00&quot;</string>
+	</dict>
+	<dict>
+		<key>picMe-1</key>
+		<string>&quot;Book&quot;</string>
+		<key>show</key>
+		<string>&quot;Book of Life&quot;</string>
+		<key>readMe</key>
+		<string>&quot;The towns people all gather togehter for the Celebration of Christmas and the light of the Tree in the middle of the Town.&quot;</string>
+		<key>time</key>
+		<string>&quot;9:00 - 10:00&quot;</string>
+	</dict>
+	<dict>
+		<key>picMe-2</key>
+		<string>&quot;Winnie&quot;</string>
+		<key>show</key>
+		<string>&quot;Winnie the Pooh&quot;</string>
+		<key>readMe</key>
+		<string>&quot;Winnie the Pooh Adventures to the Market...Winnie and Gang buy ingriedents for Thanksgiving Feast but encounter many troubles on the way.&quot;</string>
+		<key>time</key>
+		<string>&quot;7:00 - 8:00&quot;</string>
+	</dict>
+	<dict>
+		<key>picMe-3</key>
+		<string>&quot;Phineas&quot;</string>
+		<key>show</key>
+		<string>&quot;Phineas and Ferb&quot;</string>
+		<key>readMe</key>
+		<string>&quot;Phineas and Ferb create a Rocketship that will take them around the world and they build it in the back yard.&quot;</string>
+		<key>time</key>
+		<string>&quot;10:00 - 11:00&quot;</string>
+	</dict>
+</array>
+</plist>
