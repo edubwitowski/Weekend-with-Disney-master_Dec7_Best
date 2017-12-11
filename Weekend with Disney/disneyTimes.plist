@@ -3,8 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>picMe-0</key>
-		<string>&quot;Mickey&quot;</string>
+		<key>picMe</key>
+		<string>Mickey</string>
 		<key>show</key>
 		<string>&quot;MickeyMouse&quot;</string>
 		<key>readMe</key>
@@ -13,8 +13,8 @@
 		<string>&quot;6:00 - 7:00&quot;</string>
 	</dict>
 	<dict>
-		<key>picMe-1</key>
-		<string>&quot;Book&quot;</string>
+		<key>picMe</key>
+		<string>Book</string>
 		<key>show</key>
 		<string>&quot;Book of Life&quot;</string>
 		<key>readMe</key>
@@ -23,8 +23,8 @@
 		<string>&quot;9:00 - 10:00&quot;</string>
 	</dict>
 	<dict>
-		<key>picMe-2</key>
-		<string>&quot;Winnie&quot;</string>
+		<key>picMe</key>
+		<string>Winnie</string>
 		<key>show</key>
 		<string>&quot;Winnie the Pooh&quot;</string>
 		<key>readMe</key>
@@ -33,8 +33,8 @@
 		<string>&quot;7:00 - 8:00&quot;</string>
 	</dict>
 	<dict>
-		<key>picMe-3</key>
-		<string>&quot;Phineas&quot;</string>
+		<key>picMe</key>
+		<string>Phineas</string>
 		<key>show</key>
 		<string>&quot;Phineas and Ferb&quot;</string>
 		<key>readMe</key>

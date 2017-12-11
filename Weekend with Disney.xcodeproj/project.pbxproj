@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA21BBCC1FD962750029981C /* Weekend-with-Disney-master_Dec5-master.zip in Resources */ = {isa = PBXBuildFile; fileRef = FA21BBCB1FD962750029981C /* Weekend-with-Disney-master_Dec5-master.zip */; };
 		FA21BBCE1FD962BF0029981C /* disneyTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA21BBCD1FD962BF0029981C /* disneyTimes.plist */; };
 		FA21BBD01FD9630E0029981C /* PlistFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA21BBCF1FD9630E0029981C /* PlistFile.swift */; };
 		FADC9B471FAA1B2F0071549A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC9B461FAA1B2F0071549A /* AppDelegate.swift */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA21BBCB1FD962750029981C /* Weekend-with-Disney-master_Dec5-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Weekend-with-Disney-master_Dec5-master.zip"; path = "../../Weekend-with-Disney-master_Dec5-master.zip"; sourceTree = "<group>"; };
 		FA21BBCD1FD962BF0029981C /* disneyTimes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disneyTimes.plist; sourceTree = "<group>"; };
 		FA21BBCF1FD9630E0029981C /* PlistFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistFile.swift; sourceTree = "<group>"; };
 		FADC9B431FAA1B2F0071549A /* Weekend with Disney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekend with Disney.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +101,6 @@
 		FADC9B451FAA1B2F0071549A /* Weekend with Disney */ = {
 			isa = PBXGroup;
 			children = (
-				FA21BBCB1FD962750029981C /* Weekend-with-Disney-master_Dec5-master.zip */,
 				FADC9B461FAA1B2F0071549A /* AppDelegate.swift */,
 				FADC9B481FAA1B2F0071549A /* ViewController.swift */,
 				FADC9B4A1FAA1B2F0071549A /* Main.storyboard */,
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA21BBCC1FD962750029981C /* Weekend-with-Disney-master_Dec5-master.zip in Resources */,
 				FADC9B511FAA1B2F0071549A /* LaunchScreen.storyboard in Resources */,
 				FA21BBCE1FD962BF0029981C /* disneyTimes.plist in Resources */,
 				FADC9B4E1FAA1B2F0071549A /* Assets.xcassets in Resources */,

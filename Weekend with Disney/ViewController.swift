@@ -51,67 +51,37 @@ class ViewController: UIViewController {
     @IBOutlet weak var readMe: UITextView!
     
     
-    
+    ////////////
         @IBAction func viewBackButton(_ sender: UIButton) {
             currentMe -= 1
             if currentMe < 0 {
-                currentMe = disneyArray.count
+                currentMe = disneyArray.count-1
+                
+                //10:18picMe.image = UIImage(named: "picMe")
+                
             }
             displayMe()
         }
         
         @IBAction func viewNextButton(_ sender: UIButton) {
             currentMe += 1
-            if currentMe > disneyArray.count {
-                currentMe = disneyArray.count
+            if currentMe >= disneyArray.count {
+                currentMe = 0
+                
+                //10:18picMe.image = UIImage(named: "picMe")
             }
             displayMe()
         }
     
         
         func displayMe() {
-            //picMe.image = UIImage[currentMe]["picMe"]
-            readMe.text = disneyArray[currentMe]["readME"]
+            
+            readMe.text = disneyArray[currentMe]["readMe"]
+            picMe.image = UIImage(named: disneyArray[currentMe]["picMe"]!)
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        override func viewDidLoad() {
+     override func viewDidLoad() {
             super.viewDidLoad()
-            
-         
-   
-            
-//            currentMe -= 1
-//        if currentMe < disneyArray.count {
-//            currentMe = disneyArray.count-1
-//        }
-//        displayMe()
-//    }
-//
-//    @IBAction func viewOneNextButton(_ sender: Any) {
-//        currentMe += 1
-//        if currentMe > disneyArray.count {
-//            currentMe = disneyArray.count
-//        }
-//        displayMe()
-//    }
-//
-//    func displayMe() {
-//        pictureMe.image = UIImage[currentMe]["pictureMe"]
-//        readMe.text = disneyArray[currentMe]["readME"] as! String
-//    }
-//
+
     
         // Do any additional setup after loading the view, typically from a nib.
         // Create a PlistFile structure for file named data.plist
@@ -133,8 +103,8 @@ class ViewController: UIViewController {
         
        let disneyCollection = PlistFile(name: "disneyTimes")
         
-            _ = disneyCollection.array
-        let disneyArray = disneyCollection.array as? [[String: String]]
+    
+    disneyArray = (disneyCollection.array as? [[String: String]])!
         
         displayMe()
     }
@@ -142,7 +112,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        //displayMe()
+        displayMe()
 }
 }
         
