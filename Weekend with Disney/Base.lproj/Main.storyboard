@@ -16,7 +16,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weekend_with_Disney" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -29,8 +29,9 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1WT-n4-iLe">
                                                 <rect key="frame" x="91.5" y="0.0" width="192" height="118"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rHA-4e-cAX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHA-4e-cAX">
                                                         <rect key="frame" x="0.0" y="0.0" width="192" height="118"/>
+                                                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="118" id="A7e-fa-822"/>
                                                             <constraint firstAttribute="height" constant="118" id="adV-WE-uZF"/>
@@ -60,16 +61,16 @@
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UGn-nj-VOH">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UGn-nj-VOH">
                                                 <rect key="frame" x="0.0" y="118" width="375" height="104"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.5482720137" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="375" id="ADQ-4f-EQX"/>
                                                     <constraint firstAttribute="height" constant="104" id="AjQ-ce-vZt"/>
                                                     <constraint firstAttribute="width" secondItem="UGn-nj-VOH" secondAttribute="height" multiplier="375:104" id="ryq-WI-LsQ"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
@@ -96,7 +97,7 @@
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqW-i2-HZF">
                                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="47"/>
-                                                                <color key="backgroundColor" red="1" green="1" blue="0.3422173262" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="100" id="oeM-Fs-gLd"/>
                                                                 </constraints>
@@ -108,7 +109,7 @@
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bu0-qC-cSp">
                                                                 <rect key="frame" x="83" y="0.0" width="75" height="47"/>
-                                                                <color key="backgroundColor" red="1" green="1" blue="0.3422173262" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                                 <state key="normal" title="NEXT"/>
                                                                 <connections>
@@ -144,7 +145,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1Z2-N5-4Ww" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="179" id="J3T-i5-SM5"/>
                             <constraint firstItem="1Z2-N5-4Ww" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R9h-hD-EIM"/>
@@ -184,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.79310344827587" y="114.40000000000001"/>
+            <point key="canvasLocation" x="112.8" y="113.79310344827587"/>
         </scene>
     </scenes>
 </document>
